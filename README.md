@@ -62,14 +62,15 @@ To see all available options type <code>typist --help</code> or just
 ### Tips
 
 Doing the same test over and over again isn't good practice. I have provided
-a text file and a small python script to randomize the most used words in the
-English language. You can use this script on any text file, though it will
-remove punctuation marks and reformats the text.
+a text file and a small python script and a shell script to randomize the most
+used words in the English language. You can use this script on any text file,
+though it will remove punctuation marks and reformats the text.
 
 ```
-python3 utils/randomize.py most-used-words.txt
+python3 utils/randomize.py most_used_words.txt
+# or
+utils/randomize.sh most_used_words.txt
 ```
-
 ---
 
 ### [Issues / Bugs](https://github.com/ny64/typist/issues)
